@@ -18,13 +18,13 @@ notebooks/
 │  ├─ Filtering_ru_ckt_corpora_with_LaBSE.ipynb
 │  │   └─ Фильтрация русско-чукотских пар с помощью LaBSE (отсеивание шумных/непараллельных примеров).
 │  └─ Aligning_texts_with_LaBSE.ipynb
-│      └─ Выравнивание (alignment) предложений/фрагментов на ru-ckt с LaBSE (поиск соответствий).
+│      └─ Выравнивание предложений/фрагментов на ru-ckt с LaBSE (поиск соответствий).
 │
 └─ training/
    ├─ Fine_tuning_LaBSE.ipynb
    │   └─ Дообучение LaBSE под задачу близости/сопоставления ru↔ckt (для фильтрации/поиска пар).
    ├─ Fine_tuning_NLLB_200.ipynb
-   │   └─ Fine-tune NLLB-200 под перевод (обычно seq2seq MT) для ru-ckt направления(ий).
+   │   └─ Fine-tune NLLB-200 под перевод для ru-ckt направления.
    ├─ Fine_tuning_mBART_50_rus_ckt.ipynb
    │   └─ Fine-tune mBART-50 для перевода RU→CKT.
    ├─ Fine_tuning_mBART_50_ckt_rus.ipynb
@@ -36,7 +36,7 @@ notebooks/
    ├─ Fine_tuning_Sockeye_rus_ckt.ipynb
    │   └─ Эксперименты с Sockeye для RU→CKT (обучение/настройка/оценка).
    └─ fine_tune_sockeye.ipynb
-       └─ Более общий/черновой ноутбук для fine-tune Sockeye (скриптовый пайплайн, запуск обучения).
+       └─ Более общий/черновой ноутбук для fine-tune Sockeye.
 ```
 
 ## Citation
